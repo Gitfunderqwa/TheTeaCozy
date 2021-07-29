@@ -1,0 +1,133 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+header .container {
+    display: flex;
+    height: 69px;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+}
+
+header ul {
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+header li {
+    margin: 5px;
+    padding: 10px;
+    align-content: flex-end;
+    list-style: none;
+}
+
+#logo {
+    height: 50px;
+    width: auto;
+    margin: 8px 10px;
+}
+
+#hero {
+    background-image: url('./resources/img-mission-background.webp');
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#mission {
+    background-color: black;
+    opacity: 1;
+    padding: 10px;
+}
+
+#mission h2 {
+    padding-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.box-container {
+    margin-top: 10px;
+    width: 1000px;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#different-tea h2 {
+    margin-top: 20px;
+}
+
+#different-tea {
+    margin: 50px 0;
+}
+.box img {
+    width: 300px;
+    height: 200px;
+    margin: 10px 15px;
+}
+
+#location {
+    background-image: url('./resources/img-locations-background.webp');
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#location-heading {
+    background-color: transparent;
+}
+
+.location-container {
+    opacity: 1;
+    display: flex;
+    width: 1000px;
+    justify-content: space-around;
+    margin: 15px;
+    background-color: transparent;
+}
+
+.location-box {
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    padding: 20px 0;
+    margin: 0 20px;
+}
+
+.contact {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+footer p{
+    padding-left: 20px;
+    text-align: left;
+}
